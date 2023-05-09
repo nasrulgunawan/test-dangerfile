@@ -13,6 +13,6 @@ defmodule TestDangerfile do
 
   """
   def hello do
-    :world
+    IO.inspect("test")
   end
 end
